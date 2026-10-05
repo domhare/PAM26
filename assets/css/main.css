@@ -6254,6 +6254,7 @@ span {
   z-index: 1000;
 }
 .preloader .animation-preloader .spinner {
+  display: none;
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
@@ -6293,6 +6294,7 @@ span {
   }
 }
 .preloader p {
+  display: none;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
