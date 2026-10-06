@@ -2269,7 +2269,8 @@ span {
   background: var(--gt-white);
   padding: 0;
 }
-.gt-faq-wrapper .faq-items .accordion .accordion-item h2 button {
+.gt-faq-wrapper .faq-items .accordion .accordion-item h2 button,
+.gt-faq-wrapper .faq-items .accordion .accordion-item h3 button {
   font-size: 20px;
   line-height: 1;
   font-weight: 800;
@@ -2283,7 +2284,8 @@ span {
   border-bottom-right-radius: 0 !important;
 }
 @media (max-width: 575px) {
-  .gt-faq-wrapper .faq-items .accordion .accordion-item h2 button {
+  .gt-faq-wrapper .faq-items .accordion .accordion-item h2 button,
+  .gt-faq-wrapper .faq-items .accordion .accordion-item h3 button {
     font-size: 14px;
     padding: 22px 16px;
   }
