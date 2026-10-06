@@ -342,6 +342,7 @@ a {
 
 p {
   margin: 0px;
+  line-height: 1.6;
   transition: all 0.4s ease-in-out;
 }
 
@@ -614,7 +615,8 @@ span {
   padding-bottom: 18px;
   margin-bottom: 18px;
 }
-.gt-about-wrapper-2 .gt-about-content .gt-icon-list li .content h4 {
+.gt-about-wrapper-2 .gt-about-content .gt-icon-list li .content h4,
+.gt-about-wrapper-2 .gt-about-content .gt-icon-list li .content h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -639,7 +641,8 @@ span {
   align-items: center;
   gap: 16px;
 }
-.gt-about-wrapper-2 .gt-about-content .gt-info-items .gt-client-items .gt-content h4 {
+.gt-about-wrapper-2 .gt-about-content .gt-info-items .gt-client-items .gt-content h4,
+.gt-about-wrapper-2 .gt-about-content .gt-info-items .gt-client-items .gt-content h3 {
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -2691,7 +2694,8 @@ span {
 .gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li .content {
   max-width: 180px;
 }
-.gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li .content h4 {
+.gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li .content h4,
+.gt-why-choose-wrapper .gt-why-choose-content .gt-icon-items li .content h3 {
   color: var(--gt-white);
 }
 .gt-why-choose-wrapper .gt-why-choose-content .gt-about-button {
@@ -2744,7 +2748,8 @@ span {
 .gt-why-choose-wrapper .gt-why-choose-content.style-2 .gt-icon-items li .content {
   max-width: 180px;
 }
-.gt-why-choose-wrapper .gt-why-choose-content.style-2 .gt-icon-items li .content h4 {
+.gt-why-choose-wrapper .gt-why-choose-content.style-2 .gt-icon-items li .content h4,
+.gt-why-choose-wrapper .gt-why-choose-content.style-2 .gt-icon-items li .content h3 {
   color: var(--gt-white);
 }
 .gt-why-choose-wrapper .gt-why-choose-content.style-2 .gt-feature-list-box {
@@ -5095,7 +5100,8 @@ span {
     text-align: center;
   }
 }
-.gt-hero-2 .gt-hero-content h6 {
+.gt-hero-2 .gt-hero-content h6,
+.gt-hero-2 .gt-hero-content .gt-hero-eyebrow {
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -6761,12 +6767,17 @@ span {
   padding-bottom: 24px;
   margin-bottom: 24px;
 }
-.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2 {
+.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2,
+.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header .gt-price {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
   font-size: 48px;
   color: var(--gt-theme);
   margin-top: 10px;
 }
-.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2 sub {
+.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2 sub,
+.gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header .gt-price sub {
   font-size: 16px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
@@ -7685,16 +7696,19 @@ span {
 .service-box-items .icon {
   margin-bottom: 20px;
 }
-.service-box-items h4 {
+.service-box-items h4,
+.service-box-items h3 {
   font-size: 20px;
 }
-.service-box-items h4 a {
+.service-box-items h4 a,
+.service-box-items h3 a {
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   display: inline;
 }
-.service-box-items h4 a:hover {
+.service-box-items h4 a:hover,
+.service-box-items h3 a:hover {
   color: var(--gt-theme);
   background-size: 100% 2px;
   background-image: linear-gradient(180deg, var(--gt-theme) 0%, var(--gt-theme) 100%);
@@ -7723,10 +7737,12 @@ span {
   background-color: var(--gt-theme);
   transition: all 0.4s ease-in-out;
 }
-.service-box-items.style-2 h5 a {
+.service-box-items.style-2 h5 a,
+.service-box-items.style-2 h3 a {
   color: var(--gt-white);
 }
-.service-box-items.style-2 h5 a:hover {
+.service-box-items.style-2 h5 a:hover,
+.service-box-items.style-2 h3 a:hover {
   color: var(--gt-theme);
   background-size: 100% 2px;
   background-image: linear-gradient(180deg, var(--gt-theme) 0%, var(--gt-theme) 100%);
