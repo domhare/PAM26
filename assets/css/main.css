@@ -10464,3 +10464,39 @@ span {
   justify-content: space-between;
   margin-top: 25px;
 }/*# sourceMappingURL=main.css.map */
+/* FAQ accordion: primary (blue) instead of yellow */
+.gt-faq-wrapper .faq-items .accordion .accordion-button {
+  background-color: #00519E;
+}
+.gt-faq-wrapper .faq-items .accordion .accordion-button::before {
+  color: #00519E;
+}
+.gt-faq-wrapper .faq-items .accordion .accordion-button.collapsed {
+  background-color: transparent;
+}
+.gt-faq-wrapper .faq-items .accordion .accordion-button.collapsed::before {
+  color: var(--gt-white);
+  background-color: #00519E;
+}
+
+/* FAQ chatbot link: icon + text, no border, no background */
+.gt-faq-wrapper .gt-faq-content .gt-faq-chatbot {
+  margin-top: 24px;
+}
+.gt-faq-wrapper .gt-faq-content .gt-chatbot-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--gt-white);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+.gt-faq-wrapper .gt-faq-content .gt-chatbot-btn:hover {
+  color: var(--gt-theme);
+}
